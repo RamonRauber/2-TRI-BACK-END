@@ -1,7 +1,8 @@
 const fruta = [
     {nome: "uva", preco: 12.90, quantidade: 50},
     {nome: "laranja lima", preco: 5.50, quantidade: 120},
-    {nome: "abacaxi", preco: 10, quantidade: 12}
+    {nome: "abacaxi", preco: 10, quantidade: 12},
+    {nome: "uva", preco: 14.90, quantidade: 10}
 ]
 
 // .find -> encotra o primeiro elemento correspondente da lista
@@ -32,3 +33,4 @@ const frutasOrdenadas = fruta.sort((a, b) => {
 });
 
 console.log(frutasOrdenadas);
+
